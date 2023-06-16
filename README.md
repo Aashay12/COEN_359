@@ -1,10 +1,21 @@
 # COEN_359
 
-This code implements the Builder pattern in Java. 
+# Summary
+- The project is about implementing a MedievalLevelBuilder class that can be used to construct levels for a game set in a medieval fantasy world. The builder class is responsible for creating the game levels and ensuring that all the details of the game are consistent.
+
+- The MedievalLevelBuilder class should allow the game developers to create levels by adding rooms, monsters, and treasures. It enforces constraints such as the maximum number of rooms, monsters, and treasures allowed in a level.
+
+- The class should provide methods to add different types of monsters (such as goblins, orcs, ogres, and humans) to specific rooms, as well as methods to add different types of treasures (such as potions, gold, weapons, and special treasures) to specific rooms.
+
+- The builder class should throw exceptions when the maximum number of monsters or treasures is reached, or when attempting to add monsters or treasures to a room that hasn't been created yet. It should also throw an exception if the build method is called before the level is fully constructed.
+
+
+
+## This code implements the Builder pattern in Java. 
 The Builder pattern is a type of a creative design pattern that allows the construction of complex objects step by step. 
 It separates the construction of an object from its representation, allowing the same construction process to create different representations.
 
-# All the implementaion of the code can be done by reuning the testcases. 
+# All the implementaion of the code can be done by running the testcases. 
 
 ## MedievalLevelBuilder.java
 
