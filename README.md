@@ -1,4 +1,4 @@
-# COEN_359
+# Dungeon Project - PDP (COEN 359)
 
 # Summary
 - The project is about implementing a MedievalLevelBuilder class that can be used to construct levels for a game set in a medieval fantasy world. The builder class is responsible for creating the game levels and ensuring that all the details of the game are consistent.
